@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/*Variables css*/
+
+:root {
+	--primary-dark-blue:hsl(217, 54%, 11%);
+    --primary-color:hsl(216, 50%, 16%);
+    --primary-font:hsl(215, 51%, 70%);
+    --primary-font-active: hsl(178, 100%, 50%);
+    --secundary-pale-blue:hsl(215, 32%, 27%);
+    --neutral-white:hsl(0, 0%, 100%);
+    --neutral-font:hsl(343, 85%, 55%);
+    --primary-font-family: 'Outfit', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 18px;
+    font-family: var(--primary-font-family);
+    background-color: var(--primary-dark-blue);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primary-color);
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 15px hsla(250, 88%, 11%, .1);
+}
+.card-img{
+    padding: 30px 30px 0 30px;
+    position: relative;
+}
+.card-img a{
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 290px;
+    height: 290px;
+    position:absolute;
+    transition: all .2s ease;
+}
+.card-img a:hover{
+    background: hsla(178, 100%, 50%, .5);
+}
+.card-img a:hover::before{
+    content: "";
+    background: url(images/icon-view.svg) no-repeat;
+    background-position: center center;
+    position:absolute;
+    width: 290px;
+    height: 290px;
+    cursor: pointer;
+}
+.img-nft{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.header{
+    padding:0 30px 0 30px;
+    margin:30px 0 30px 0;
+}
+.card-text, .days-title, .creator-text{
+    color: var(--primary-font);
+}
+.card-title{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card-title-active{
+    color:var(--neutral-white);
+    text-decoration: none;
+}
+.card-title-active:hover{
+    color:var(--primary-font-active);
+    transition: all .2s ease;
+    cursor:pointer;
+}
+.cripto, .days, .card-footer{
+    display: flex;
+    flex-direction:row;
+}
+.card-body{
+    padding:0 30px 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.value-title{
+	width:100px;
+    color: var(--primary-font-active);
+    font-weight: 600;
+}
+.days-title{
+	width:100px;
+}
+.icon-ethereum, .icon-clock{
+    margin-right: 10px;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 100px;
+    border: 1px solid var(--neutral-white);
+}
+.creator{
+    color: var(--neutral-white);
+    font-weight: 400;
+    text-decoration: none;
+}
+.creator:hover{
+    color: var(--primary-font-active);
+	transition: all .2s ease;
+    cursor: pointer;
+}
+.card-body{
+    margin-bottom: 25px;
+}
+hr{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: var(--neutral-white);
+    opacity:0.2;
+}
+.card-footer{
+    padding:0 30px 0 30px;
+    margin:20px 0 30px 0;
+    align-items: center;
+}
+/*Footer*/
+footer{
+    margin:20px 0 20px 0;
+    color: var(--primary-font);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color:var(--neutral-font);
+}
+
+
