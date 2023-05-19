@@ -35,7 +35,7 @@ Users should be able to:
 
 ![](https://github.com/dusvimarin/FEM-nft-preview-card-component-main/blob/main/screenshots/mobile.png)
 
-![](https://github.com/dusvimarin/FEM-nft-preview-card-component-main/blob/main/screenshots/mobile%20active.png)
+
 
 
 ### Links
