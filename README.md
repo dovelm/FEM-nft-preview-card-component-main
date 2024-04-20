@@ -31,16 +31,16 @@ Users should be able to:
 
 ### Screenshots
 
-![](https://github.com/dovelym/FEM-nft-preview-card-component-main/blob/main/screenshots/desktop.png)
+![](https://github.com/dovelm/FEM-nft-preview-card-component-main/blob/main/screenshots/desktop.png)
 
-![](https://github.com/dovelym/FEM-nft-preview-card-component-main/blob/main/screenshots/mobile.png)
+![](https://github.com/dovelm/FEM-nft-preview-card-component-main/blob/main/screenshots/mobile.png)
 
 
 
 
 ### Links
 
-[My Solution](https://dovelym.github.io/FEM-nft-preview-card-component-main)
+[My Solution](https://dovelm.github.io/FEM-nft-preview-card-component-main)
 
 
 ## My process
