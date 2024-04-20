@@ -68,5 +68,5 @@ I learned to use elements flexbox.
 - Google chome/tools/development tools
 
 ## Author
-[@dusvy_m](https://github.com/dovelym)
+[@dusvy_m](https://github.com/dovelm)
 
